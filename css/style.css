@@ -1,0 +1,38 @@
+.hitam {
+    color: black;
+    background-color: grey;
+    height:40px;
+    font-size:31px;
+    font-family: times new roman bold;
+    
+}
+.garis {
+    margin:40px;
+    border-bottom:2px solid black;
+    text-align: center;
+    height: 200px;
+    font-size: 38px;
+    font-family: copperlate gothic bold;
+
+    
+}
+.abu-abu {
+    color: white;
+    background-color: grey;
+    height:40px;
+    font-size:31px;
+    font-family: times new roman bold;
+    
+}
+a {
+    color: white;
+
+}
+.one {
+    margin-top:auto;
+    background-color: darkgray;
+}
+
+.p {
+    font-family: castellar;
+}

@@ -1,0 +1,15 @@
+.hitam {
+    color: white;
+    background-color: grey;
+    height:40px;
+    font-size:30px;
+}
+
+a {
+    color: white;
+    float:left;
+}
+.silver {
+    background-color: silver;
+    height:150px;    
+}
