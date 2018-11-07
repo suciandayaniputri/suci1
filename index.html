@@ -1,0 +1,137 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Kaos Winsy</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4 hitam">
+                    <img src="images/toko.png" width="50"> <a href="">Logo</a></div>
+                <div class="col-xs-4 hitam"> 
+                    <a href="index.html">Homepage</a>
+                    <a href="contact.html"></a></div> 
+                <div class="col-xs-4 hitam"> 
+                    <a href="index.html"></a>
+                    <a href="contact.html">Contact Us</a></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="garis">Beli Per Potong Murah<br>Beli Per Lusin Lebih Murah Lagi</div>
+                <div class="col-xs-4 abu-abu">
+                    <a href="laki.html">Remaja Laki-laki</a></div>
+                <div class="col-xs-4 abu-abu"> 
+                    <a href="prmpan.html">Remaja Perempuan</a></div> 
+                <div class="col-xs-4 abu-abu"> 
+                    <a href="anak.html">Anak-anak</a></div>
+            </div>
+        <div class="container-fluid one">
+            <div class="container">
+            <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="item1 active"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+          <div class="row">
+              <div class="col-xs-6"> <img src="images/1.jpg" width="400px" height="280px"></div>
+              <div class="col-xs-6"> <img src="images/2.jpg" width="400px" height="280px"></div>
+          </div>
+      </div>
+        
+      <div class="item">
+          <div class="row">
+              <div class="col-xs-4"> <img src="images/3.jpg" width="200"></div>
+              <div class="col-xs-4"> <img src="images/4.jpg" width="200"></div>
+              <div class="col-xs-4"> <img src="images/5.jpg" width="200"></div>
+          </div>
+      </div>
+    
+      <div class="item">
+          <div class="row">
+              <div class="col-xs-4"> <img src="images/6.jpg" width="200"></div>
+              <div class="col-xs-4"> <img src="images/7.jpg" width="200"></div>
+              <div class="col-xs-4"> <img src="images/8.jpg" width="200"></div>
+          </div>
+      </div>
+      
+         <div class="item">
+          <div class="row">
+              <div class="col-xs-4"> <img src="images/9.jpg" width="200"></div>
+              <div class="col-xs-4"> <img src="images/10.jpg" width="200"></div>
+              <div class="col-xs-4"> <img src="images/11.jpg" width="200"></div>
+          </div>
+    </div>
+     </div>
+        
+    <span style="color: black; font-family: castellar; font-size: 30px;">Terima Pesanan Baju Untuk Disablon dsb.<br><br></span>
+
+     
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+            <!--<div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-4 silver"><img src="images/1.jpg"width="450"></div>  
+                    <div class="col-xs-4 silver"><img src="images/5.jpg" width="450"></div>
+                    <div class="col-xs-4 silver"><img src="images/2.jpg"width="450"></div>
+                    <div class="col-xs-4 silver"><img src="images/3.jpg"width="450"></div>
+                    <div class="col-xs-4 silver"><img src="images/4.jpg"width="450"></div>
+                </div>
+            </div>-->
+        </div>
+    </div> 
+        
+        <script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+    
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
+    </body>
+
+</html>
